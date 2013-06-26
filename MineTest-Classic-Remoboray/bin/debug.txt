@@ -1,0 +1,377 @@
+
+
+-------------
+  Separator  
+-------------
+
+Debug streams initialized, disable_stderr=1
+19:38:16: ACTION[main]: minetest with SER_FMT_VER_HIGHEST=20, VER=0.3.1 RUN_IN_PLACE=ON USE_GETTEXT=0 INSTALL_PREFIX=C:/Users/raymond/Desktop BUILD_TYPE=Release
+19:38:16: INFO[main]: Parsing configuration file: "C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\minetest.conf"
+INFO: Initial run of init_mapnode with g_texturesource=NULL. If this segfaults, there is a bug with something not checking for the NULL value.
+19:38:16: INFO[main]: Settings: Setting not found: "enable-unittests"
+19:38:16: INFO[main]: Settings: Setting not found: "server"
+19:38:16: INFO[main]: TextureSource::buildMainAtlas()
+19:38:16: INFO[main]: Creating texture atlas out of textures: "[noalpha:leaves.png" "apple.png" "bookshelf.png" "borderstone.png" "brick.png" "brickgreen.png" "cactus_side.png" "cactus_top.png" "chest_front.png" "chest_lock.png" "chest_side.png" "chest_top.png" "clay.png" "coalchecker.png" "cobble.png" "cotton.png" "dirt.png" "fence.png" "furnace_front.png" "furnace_side.png" "glass.png" "glasslight.png" "grass.png" "gravel.png" "ironstonebrick.png" "junglegrass.png" "jungletree.png" "jungletree_top.png" "ladder.png" "lava.png" "mese.png" "mossycobble.png" "mud.png" "mud.png^grass_side.png" "nc_back.png" "nc_front.png" "nc_rb.png" "nc_side.png" "papyrus.png" "rail.png" "sand.png" "sandstone.png" "sapling.png" "sign_wall.png" "steel_block.png" "stone.png" "stone.png^mineral_coal.png" "stone.png^mineral_iron.png" "stonebrick.png" "torch.png" "torch_on_ceiling.png" "torch_on_floor.png" "tree.png" "tree_top.png" "unknown_block.png" "unknown_block.png^mineral_coal.png" "unknown_block.png^mineral_iron.png" "wood.png" "woodjungle.png" 
+19:38:16: INFO[main]: generate_image(): generating special modification "[noalpha:leaves.png"
+19:38:16: INFO[main]: generate_image(): Loading path "C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\data\textures\leaves.png"
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "[noalpha:leaves.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "apple.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "bookshelf.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "borderstone.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "brick.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "brickgreen.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "cactus_side.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "cactus_top.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "chest_front.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "chest_lock.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "chest_side.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "chest_top.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "clay.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "coalchecker.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "cobble.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "cotton.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "dirt.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "fence.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "furnace_front.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "furnace_side.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "glass.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "glasslight.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "grass.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "gravel.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "ironstonebrick.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "junglegrass.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "jungletree.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "jungletree_top.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "ladder.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "lava.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "mese.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "mossycobble.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "mud.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "mud.png^grass_side.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "nc_back.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "nc_front.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "nc_rb.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "nc_side.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "papyrus.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "rail.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "sand.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "sandstone.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "sapling.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "sign_wall.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "steel_block.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "stone.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "stone.png^mineral_coal.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "stone.png^mineral_iron.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "stonebrick.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "torch.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "torch_on_ceiling.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "torch_on_floor.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "tree.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "tree_top.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "unknown_block.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "unknown_block.png^mineral_coal.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "unknown_block.png^mineral_iron.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "wood.png" to texture atlas
+19:38:16: INFO[main]: TextureSource::buildMainAtlas(): Adding "woodjungle.png" to texture atlas
+19:38:16: INFO[main]: Settings: Setting not found: "speedtests"
+19:38:16: INFO[main]: Settings: Setting not found: "random-input"
+19:38:16: INFO[main]: text_height=18
+INFO: Full run of init_mapnode with g_texturesource!=NULL
+19:38:16: INFO[main]: getTextureIdDirect(): "unknown_block.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "unknown_block.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "stone.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "stone.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{stone.png{stone.png{stone.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{stone.png{stone.png{stone.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "coalchecker.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "coalchecker.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "mud.png^grass_side.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "mud.png^grass_side.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "dirt.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "dirt.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "mud.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "mud.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{mud.png{mud.png{mud.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{mud.png{mud.png{mud.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "sand.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "sand.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{sand.png{sand.png{sand.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{sand.png{sand.png{sand.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "gravel.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "gravel.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{gravel.png{gravel.png{gravel.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{gravel.png{gravel.png{gravel.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "sandstone.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "sandstone.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{sandstone.png{sandstone.png{sandstone.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{sandstone.png{sandstone.png{sandstone.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "clay.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "clay.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{clay.png{clay.png{clay.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{clay.png{clay.png{clay.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "brick.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "brick.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{brick.png{brick.png{brick.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{brick.png{brick.png{brick.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "brickgreen.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "brickgreen.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "tree.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "tree.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{tree_top.png{tree.png{tree.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{tree_top.png{tree.png{tree.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "jungletree.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "jungletree.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{jungletree_top.png{jungletree.png{jungletree.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{jungletree_top.png{jungletree.png{jungletree.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "junglegrass.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "junglegrass.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[noalpha:leaves.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "[noalpha:leaves.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "cactus_side.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "cactus_side.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{cactus_top.png{cactus_side.png{cactus_side.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{cactus_top.png{cactus_side.png{cactus_side.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "papyrus.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "papyrus.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "bookshelf.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "bookshelf.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{wood.png{bookshelf.png{bookshelf.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{wood.png{bookshelf.png{bookshelf.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "stonebrick.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "stonebrick.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "ironstonebrick.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "ironstonebrick.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "glass.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "glass.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{glass.png{glass.png{glass.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{glass.png{glass.png{glass.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "glasslight.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "glasslight.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "fence.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "fence.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "rail.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "rail.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "ladder.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "ladder.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "borderstone.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "borderstone.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{borderstone.png{borderstone.png{borderstone.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{borderstone.png{borderstone.png{borderstone.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "wood.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "wood.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{wood.png{wood.png{wood.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{wood.png{wood.png{wood.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "woodjungle.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "woodjungle.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "mese.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "mese.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{mese.png{mese.png{mese.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{mese.png{mese.png{mese.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "cotton.png^[forcesingle" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "cotton.png" found in cache
+19:38:16: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{cotton.png{cotton.png{cotton.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{cotton.png{cotton.png{cotton.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{water.png{water.png{water.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{water.png{water.png{water.png"
+19:38:16: INFO[main]: getTextureIdDirect(): "water.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: getTextureIdDirect(): "[inventorycube{lava.png{lava.png{lava.png" NOT found in cache. Creating it.
+19:38:16: INFO[main]: generate_image(): generating special modification "[inventorycube{lava.png{lava.png{lava.png"
+19:38:17: INFO[main]: getTextureIdDirect(): "torch_on_floor.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "torch_on_floor.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "sign_wall.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "sign_wall.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "chest_side.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "chest_side.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "chest_top.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "chest_top.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "[inventorycube{chest_top.png{chest_front.png{chest_side.png" NOT found in cache. Creating it.
+19:38:17: INFO[main]: generate_image(): generating special modification "[inventorycube{chest_top.png{chest_front.png{chest_side.png"
+19:38:17: INFO[main]: getTextureIdDirect(): "chest_lock.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "chest_lock.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "[inventorycube{chest_top.png{chest_lock.png{chest_side.png" NOT found in cache. Creating it.
+19:38:17: INFO[main]: generate_image(): generating special modification "[inventorycube{chest_top.png{chest_lock.png{chest_side.png"
+19:38:17: INFO[main]: getTextureIdDirect(): "furnace_side.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "furnace_side.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "[inventorycube{furnace_side.png{furnace_front.png{furnace_side.png" NOT found in cache. Creating it.
+19:38:17: INFO[main]: generate_image(): generating special modification "[inventorycube{furnace_side.png{furnace_front.png{furnace_side.png"
+19:38:17: INFO[main]: getTextureIdDirect(): "cobble.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "cobble.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "[inventorycube{cobble.png{cobble.png{cobble.png" NOT found in cache. Creating it.
+19:38:17: INFO[main]: generate_image(): generating special modification "[inventorycube{cobble.png{cobble.png{cobble.png"
+19:38:17: INFO[main]: getTextureIdDirect(): "mossycobble.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "mossycobble.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "[inventorycube{mossycobble.png{mossycobble.png{mossycobble.png" NOT found in cache. Creating it.
+19:38:17: INFO[main]: generate_image(): generating special modification "[inventorycube{mossycobble.png{mossycobble.png{mossycobble.png"
+19:38:17: INFO[main]: getTextureIdDirect(): "steel_block.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "steel_block.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "[inventorycube{steel_block.png{steel_block.png{steel_block.png" NOT found in cache. Creating it.
+19:38:17: INFO[main]: generate_image(): generating special modification "[inventorycube{steel_block.png{steel_block.png{steel_block.png"
+19:38:17: INFO[main]: getTextureIdDirect(): "nc_side.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "nc_side.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "[inventorycube{nc_front.png{nc_side.png{nc_side.png" NOT found in cache. Creating it.
+19:38:17: INFO[main]: generate_image(): generating special modification "[inventorycube{nc_front.png{nc_side.png{nc_side.png"
+19:38:17: INFO[main]: getTextureIdDirect(): "nc_rb.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "nc_rb.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "[inventorycube{nc_rb.png{nc_rb.png{nc_rb.png" NOT found in cache. Creating it.
+19:38:17: INFO[main]: generate_image(): generating special modification "[inventorycube{nc_rb.png{nc_rb.png{nc_rb.png"
+19:38:17: INFO[main]: getTextureIdDirect(): "sapling.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "sapling.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: getTextureIdDirect(): "apple.png^[forcesingle" NOT found in cache. Creating it.
+19:38:17: INFO[main]: getTextureIdDirect(): "apple.png" found in cache
+19:38:17: INFO[main]: generate_image(): generating special modification "[forcesingle"
+19:38:17: INFO[main]: Created main menu
+19:38:27: INFO[main]: Dropping main menu
+19:38:27: INFO[main]: Updating configuration file: "C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\minetest.conf"
+INFO: Full run of init_mapnode with g_texturesource!=NULL
+19:38:28: INFO[main]: Creating server
+19:38:28: INFO[main]: ServerMap::ServerMap
+19:38:28: INFO[main]: Initializing new map.
+19:38:28: INFO[main]: ServerMap: Saving whole map, this can take time.
+19:38:28: INFO[main]: ServerMap::saveMapMeta(): seed=5444900646641610157
+19:38:28: INFO[main]: ServerMap: Written: 0 sector metadata files, 0 block files, 0 blocks in memory.
+AuthManager: loading from C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\auth.txt
+AuthManager: failed loading from C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\auth.txt
+WARNING: AuthManager: creating C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\auth.txt
+BanManager: loading from C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\ipban.txt
+BanManager: failed loading from C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\ipban.txt
+WARNING: BanManager: creating C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\ipban.txt
+19:38:28: INFO[main]: Server: Loading players
+19:38:28: INFO[main]: Server: Started on port 30000
+19:38:28: INFO[main]: Creating client
+19:38:28: INFO[main]: Connecting to server at 127.0.0.1:30000
+19:38:28: INFO[main]: Client packetcounter (20s):
+19:38:28: INFO[main]: Client::peerAdded(): peer->id=1
+19:38:28: INFO[ServerThread]: Server::peerAdded(): peer->id=2
+19:38:28: INFO[ServerThread]: Server: Handling peer change: id=2, timeout=0
+19:38:28: INFO[ServerThread]: Server: Got TOSERVER_INIT from 2
+19:38:28: INFO[ServerThread]: Server: adding player ray to auth manager
+AuthManager: saving to C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\auth.txt
+19:38:28: INFO[ServerThread]: Server: Finding spawn place for player "ray"
+19:38:28: INFO[ServerThread]: Server sending TOCLIENT_MOVE_PLAYER pos=(10,40,-20) pitch=0 yaw=0
+19:38:28: VERBOSE[Connection]: con(448/1): WARNING: Assuming unknown peer to be peer_id=2
+19:38:28: VERBOSE[Connection]: con(448/1): WARNING: Assuming unknown peer to be peer_id=2
+19:38:28: INFO[main]: Client: TOCLIENT_INIT received with deployed=20
+19:38:28: INFO[main]: Client: received map seed: 5444900646641610157
+19:38:28: INFO[main]: Client got TOCLIENT_MOVE_PLAYER pos=(10,40,-20) pitch=0 yaw=0
+19:38:28: INFO[ServerThread]: Server: Got TOSERVER_INIT2 from 2
+19:38:28: ACTION[ServerThread]: ray joins game. List of players: ray 
+Clouds::Clouds
+19:38:28: INFO[main]: Client: ignoring player item  for non-existing peer id 2
+19:38:28: INFO[main]: Client: time_of_day=9007, dr=1000
+19:38:29: INFO[MeshUpdateThread]: getTextureId(): Queued: name="leaves.png"
+19:38:29: INFO[MeshUpdateThread]: Waiting for texture from main thread, name="leaves.png"
+19:38:29: INFO[main]: TextureSource::processQueue(): got texture request with name="leaves.png"
+19:38:29: INFO[main]: getTextureIdDirect(): "leaves.png" NOT found in cache. Creating it.
+AuthManager: saving to C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\auth.txt
+19:38:30: INFO[ServerThread]: Server: Database structure was createdServer: Database opened
+19:38:30: INFO[ServerThread]: ServerMap: Written: 0 sector metadata files, 78 block files, 78 blocks in memory.
+19:38:30: INFO[main]: Client: ignoring player item  for local player
+19:38:31: INFO[ServerThread]: ServerMap: Written: 0 sector metadata files, 54 block files, 93 blocks in memory.
+19:38:32: INFO[ServerThread]: ServerMap: Written: 0 sector metadata files, 27 block files, 108 blocks in memory.
+19:38:34: INFO[ServerThread]: ServerMap: Written: 0 sector metadata files, 105 block files, 146 blocks in memory.
+19:38:37: INFO[ServerThread]: ServerMap: Written: 0 sector metadata files, 166 block files, 221 blocks in memory.
+19:38:37: INFO[main]: Client: avg_rtt=0
+19:38:39: INFO[ServerThread]: ServerMap: Written: 0 sector metadata files, 138 block files, 249 blocks in memory.
+19:38:40: INFO[ServerThread]: ServerMap: Written: 0 sector metadata files, 90 block files, 262 blocks in memory.
+19:38:42: INFO[ServerThread]: ServerMap: Written: 0 sector metadata files, 48 block files, 274 blocks in memory.
+19:38:43: INFO[main]: the_game: Launching pause menu
+19:38:43: INFO[ServerThread]: ServerMap: Written: 0 sector metadata files, 59 block files, 287 blocks in memory.
+19:38:45: INFO[ServerThread]: ServerMap: Written: 0 sector metadata files, 78 block files, 306 blocks in memory.
+19:38:45: INFO[main]: Server::~Server()
+19:38:45: INFO[main]: Server: Saving players
+19:38:45: INFO[main]: Server: Saving environment metadata
+19:38:45: INFO[main]: Server: Stopping and waiting threads
+19:38:45: INFO[ServerThread]: Server::ProcessData(): Cancelling: peer 2 not found
+19:38:45: INFO[main]: Server: Threads stopped
+BanManager: saving to C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\ipban.txt
+AuthManager: saving to C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\auth.txt
+19:38:45: INFO[main]: ServerMap::~ServerMap
+19:38:46: INFO[main]: ServerMap: Written: 0 sector metadata files, 64 block files, 317 blocks in memory.
+19:38:46: INFO[main]: Server: saved map to C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world
+Clouds::~Clouds
+19:38:46: INFO[main]: Created main menu
+19:38:49: INFO[main]: Dropping main menu
+19:38:49: INFO[main]: Updating configuration file: "C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\minetest.conf"
+19:38:49: INFO[main]: Changing value of "name" = "ray" -> ""
+INFO: Full run of init_mapnode with g_texturesource!=NULL
+19:38:49: INFO[main]: Creating server
+19:38:49: INFO[main]: ServerMap::ServerMap
+19:38:49: INFO[main]: ServerMap::loadMapMeta(): Loading map metadata
+19:38:49: INFO[main]: ServerMap::loadMapMeta(): seed=5444900646641610157
+19:38:49: INFO[main]: Server: Successfully loaded map and chunk metadata from C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world, assuming valid save directory.
+AuthManager: loading from C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\auth.txt
+BanManager: loading from C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\ipban.txt
+19:38:49: INFO[main]: Server: Loading environment metadata
+19:38:49: INFO[main]: Server: Loading players
+19:38:49: INFO[main]: Checking player file C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world/players/ray
+19:38:49: INFO[main]: Loaded test player with name ray
+19:38:49: INFO[main]: Is a new player
+19:38:49: INFO[main]: Reading player ray from C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world/players/ray
+19:38:49: INFO[main]: Server: Started on port 30000
+19:38:49: INFO[main]: Creating client
+19:38:49: INFO[main]: Connecting to server at 127.0.0.1:30000
+19:38:49: INFO[main]: Client packetcounter (20s):
+19:38:49: INFO[ServerThread]: Server::peerAdded(): peer->id=2
+19:38:49: INFO[ServerThread]: Server: Handling peer change: id=2, timeout=0
+19:38:49: INFO[ServerThread]: Server: Got TOSERVER_INIT from 2
+19:38:49: INFO[ServerThread]: Server: Player has empty name
+19:38:49: INFO[main]: Client::peerAdded(): peer->id=1
+19:38:49: VERBOSE[Connection]: con(500/1): WARNING: Assuming unknown peer to be peer_id=2
+19:38:49: VERBOSE[Connection]: con(500/1): WARNING: Assuming unknown peer to be peer_id=2
+19:38:50: ERROR[main]: Access denied. Reason: Empty name
+19:38:50: INFO[ServerThread]: Server::deletingPeer(): peer->id=2, timeout=0
+19:38:50: INFO[main]: Server::~Server()
+19:38:50: INFO[main]: Server: Saving players
+19:38:50: INFO[main]: Server: Saving environment metadata
+19:38:50: INFO[main]: Server: Stopping and waiting threads
+19:38:50: INFO[main]: Server: Threads stopped
+BanManager: saving to C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\ipban.txt
+AuthManager: saving to C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world\auth.txt
+19:38:50: INFO[main]: ServerMap::~ServerMap
+19:38:50: INFO[main]: ServerMap::saveMapMeta(): seed=5444900646641610157
+19:38:50: INFO[main]: Server: saved map to C:\Users\raymond\Desktop\MineTest-Classic-Remoboray\bin\..\world
+19:38:50: ERROR[main]: error_message = Access denied. Reason: Empty name
+19:38:50: INFO[main]: Created main menu
